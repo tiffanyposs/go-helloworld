@@ -46,6 +46,27 @@ There are two types of packages in Go: `executable` and `reusable`
 
 **What does 'import "fmt"'mean?**
 
+`import fmt` is simply importing the "format" package (included with standard Go library). using `import` is how you include packages into a file.
+
+Other standard Go packages include:
+
+* `fmt`
+* `debug`
+* `math`
+* `encoding`
+* `crypto`
+* `io`
+
+You can see a list and documentation for all packages here: https://golang.org/pkg/ 
+
 **What's that 'func' thing?**
 
+`func` is just short for `function`
+
 **How is the main.go file organized?**
+
+Every file in Go will have the same organization
+
+1. Package declaration
+2. Import other packages needed
+3. Declare functions and tell Go to do things

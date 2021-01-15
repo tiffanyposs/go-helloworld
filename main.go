@@ -4,6 +4,10 @@
 // creating a executable file
 package main
 
+// gives our package access to some code
+// written inside of another package
+// "fmt" is a standard package that comes with Go
+// it is short for "format", used to print out information
 import "fmt"
 
 // since "package main" creates an executable filel
